@@ -391,6 +391,15 @@
             text-decoration: underline;
         }
 
+        .project-title:not(a) {
+            color: var(--text-color);
+            cursor: default;
+        }
+
+        .project-title:not(a):hover {
+            text-decoration: none;
+        }
+
         .ongoing-badge {
             display: inline-block;
             padding: 4px 12px;
@@ -509,7 +518,7 @@
         <header class="header">
             <div class="header-content">
                 <h1>Rashmin Munasinghe</h1>
-                <p class="subtitle">Electronics and Telecommunications Engineering Undergraduate at <a href="https://kdu.ac.lk/" target="_blank">General Sir John Kotelawala Defence University</a></p>
+                <p class="subtitle">Electronics and Telecommunications Engineering Undergraduate at <a href="https://kdu.ac.lk/" target="_blank">General&nbsp;Sir&nbsp;John&nbsp;Kotelawala&nbsp;Defence&nbsp;University</a></p>
                 
                 <p class="bio">
                     Passionate about Machine Learning and Deep Learning, actively learning Natural Language Processing and advanced deep learning techniques. I specialize in developing intelligent systems through software, leveraging AI frameworks and programming expertise to create meaningful solutions that address real-world challenges.
@@ -613,7 +622,7 @@
                         <img src="images/phishing.png" alt="Phishing URL Detection" class="project-image">
                     </a>
                     <div class="project-content">
-                        <a href="https://phishingg.netlify.app/" target="_blank" class="project-title">Phishing URL Detection Application</a>
+                        <span class="project-title">Phishing URL Detection Application</span>
                         <p class="project-tech">Python, Machine Learning, Flask, Scikit-learn, React</p>
                         <p class="project-description">
                             Built a machine learning-powered web application to detect phishing URLs in real-time. 
@@ -647,7 +656,7 @@
                         </a>
                     </div>
                     <div class="project-content">
-                        <a href="https://github.com/rashminnn/chabot" target="_blank" class="project-title">Voice Assisted Chatbot on Raspberry Pi</a>
+                        <span class="project-title">Voice Assisted Chatbot on Raspberry Pi</span>
                         <p class="project-tech">Python, Speech Recognition, Raspberry Pi, IoT</p>
                         <p class="project-description">
                             Developed an intelligent voice-activated chatbot system on Raspberry Pi. 
@@ -670,7 +679,7 @@
                         <img src="images/noticeboard1.png" alt="Smart Notice Board" class="project-image">
                     </a>
                     <div class="project-content">
-                        <a href="https://notice-app-c88cf.web.app/" target="_blank" class="project-title">Smart Notice Board using Raspberry Pi</a>
+                        <span class="project-title">Smart Notice Board using Raspberry Pi</span>
                         <p class="project-tech">Raspberry Pi, Python, IoT</p>
                         <p class="project-description">
                             Designed and implemented a smart digital notice board system using Raspberry Pi for automated 
